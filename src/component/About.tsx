@@ -45,7 +45,7 @@ const About = () =>{
 
             <div className={'w-full h-screen bg-Hero-1 bg-cover'}>
                 <header className={'w-full py-3 px-4 flex items-center justify-end'}>
-                    <p className={'font-Death text-lg text-white hover:shadow-2xl hover:shadow-purple-300 cursor-pointer'} onClick={()=> handleNavigate('/Contact-me')}>Contact Me</p>
+                    <p className={'font-Death text-lg text-white hover:shadow-2xl hover:shadow-purple-300 cursor-pointer'} onClick={()=> handleNavigate('/Contact')}>Contact Me</p>
                 </header>
                 <div className={'w-full py-4 flex flex-col items-center justify-center'}>
                     <div className={'w-6/12 flex gap-3 items-center justify-center'}>
